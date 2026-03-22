@@ -30,7 +30,7 @@ include:
   # The Dongle (Central)
   - board: seeeduino_xiao_ble
     shield: corne_v3_dongle
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    cmake-args: -DZMK_EXTRA_MODULES="${{ github.workspace }}" -DCONFIG_ZMK_MOUSE=y
 
   # Reset firmware for the Dongle (in case of pairing issues)
   - board: seeeduino_xiao_ble
