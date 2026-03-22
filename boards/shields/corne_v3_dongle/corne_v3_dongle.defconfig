@@ -1,0 +1,10 @@
+# Включаем мышь, так как она есть в keymap
+CONFIG_ZMK_MOUSE=y
+
+# Настройки центрального устройства (донгла)
+CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=2
+
+# Увеличиваем лимиты для стабильности
+CONFIG_BT_MAX_CONN=5
+CONFIG_BT_MAX_PAIRED=5
