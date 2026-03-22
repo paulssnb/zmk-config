@@ -42,7 +42,7 @@
 //          quick-tap-ms = <175>;
             global-quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 >; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
             hold-trigger-on-release;
         };
         hmr: home_row_mod_right {
@@ -54,7 +54,7 @@
 //          quick-tap-ms = <175>;
             global-quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 >; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             hold-trigger-on-release;
         };
     };
@@ -70,9 +70,9 @@
 // | (CTAP) | Z (BUTTON) | X        | C         | V         | B |   | N | M          | COMMA     | DOT      | FSLH (BUTTON) | (BTAP) |
 //                      | ESC (MEDIA) | SPC (NAV) | TAB (MOUSE) |   | RET (SYM) | BSPC (NUM) | DEL (FUN) |
                         bindings = <
-   &to 2   td_q_ae     &kp W       &kp E        &kp R        &kp T   &kp Y &td_u_h       &td_i_mz         &kp O         &kp P         &to 0
+   &to 2    &td_q_ae     &kp W       &kp E        &kp R        &kp T   &kp Y &td_u_h       &td_i_mz         &kp O         &kp P         &to 0
    &tog 8  &hml LGUI A &hml LALT S &hml LCTRL D &hml LSHFT F &kp G   &kp H &hmr RSHFT J  &hmr RCTRL K     &hmr RALT L   &hmr RGUI SQT &tog 4
-   &to 3   &lt 6 Z     &kp X       &kp C        &kp V        &kp B   &kp N &kp M         &kp COMMA        &kp DOT       &lt 6 FSLH    &to 1
+   &to 3    &lt 6 Z     &kp X       &kp C        &kp V        &kp B   &kp N &kp M         &kp COMMA        &kp DOT       &lt 6 FSLH    &to 1
                                      &lt 7 ESC &lt 4 SPC &lt 5 TAB   &lt 9 RET &lt 8 BSPC &lt 10 DEL
                         >;
                 };
