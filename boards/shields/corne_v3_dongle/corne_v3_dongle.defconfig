@@ -1,3 +1,5 @@
+CONFIG_ZMK_KEYBOARD_NAME="Corne_v3"
+
 # Включаем мышь, так как она есть в keymap
 CONFIG_ZMK_MOUSE=y
 
